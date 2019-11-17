@@ -1,0 +1,32 @@
+version: '2'
+
+services:
+  wallet-ui:
+    image: wallet-ui
+    build: ./wallet-ui
+    restart: always
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./wallet-ui:/wallet-ui
+      - /wallet-ui/node_modules
+    links:
+      - wallet-service
+    networks:
+      - walletnetwork
+
+  wallet-service:
+    image: wallet-service
+    build: ./wallet-service
+    restart: always
+    ports:
+      - '9000:9000'
+    volumes:
+      - ./wallet-service:/wallet-service
+      - /wallet-service/node_modules
+    networks:
+      - walletnetwork
+
+networks:
+    walletnetwork:
+        driver: bridge
