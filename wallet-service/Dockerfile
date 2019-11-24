@@ -8,7 +8,7 @@ WORKDIR /wallet-service
 COPY package*.json /wallet-service/
 
 # install dependencies
-RUN npm install --production
+RUN npm install
 
 # Copy the current directory contents into the container at /wallet-service
 COPY . /wallet-service/

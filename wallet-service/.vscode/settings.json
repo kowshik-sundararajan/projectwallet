@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": false,
+    "dist": false
+  },
+  "editor.formatOnSave": true,
+  "mocha.env": {
+    "NODE_ENV": "testing",
+    "NODE_PORT": "9000"
+  },
+  "tslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "mocha.files.glob": "src/**/*.spec.js",
+  "mocha.requires": [
+    "babel-core/register"
+  ],
+  "mocha.runTestsOnSave": "true",
+  "mocha.logVerbose": false,
+  "mocha.options": {
+    "enableTimeouts": false,
+    "useColors": false,
+    "reporter": "spec"
+  },
+  "mocha.showErrorPopup": false
+}

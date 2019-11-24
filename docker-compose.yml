@@ -12,6 +12,7 @@ services:
       - /wallet-ui/node_modules
     links:
       - wallet-service
+      # - mock-data-server
     networks:
       - walletnetwork
 
@@ -26,6 +27,18 @@ services:
       - /wallet-service/node_modules
     networks:
       - walletnetwork
+
+  # mock-data-server:
+  #   image: mock-data-server
+  #   build: ./mock-data-server
+  #   restart: always
+  #   ports:
+  #     - '8484:8484'
+  #   volumes:
+  #     - ./mock-data-server:/mock-data-server
+  #     - /mock-data-server/node_modules
+  #   networks:
+  #     - walletnetwork
 
 networks:
     walletnetwork:

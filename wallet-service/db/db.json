@@ -1,0 +1,255 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Daenerys Targaryen"
+    },
+    {
+      "id": 2,
+      "name": "Jon Snow"
+    },
+    {
+      "id": 3,
+      "name": "Arya Stark"
+    },
+    {
+      "id": 4,
+      "name": "Jaime Lannister"
+    },
+    {
+      "id": 5,
+      "name": "Tyrion Lannister"
+    }
+  ],
+  "currencies": [
+    {
+      "id": 1,
+      "name": "USD",
+      "value": 1
+    },
+    {
+      "id": 2,
+      "name": "SGD",
+      "value": 1.36
+    },
+    {
+      "id": 3,
+      "name": "AUD",
+      "value": 1.47
+    },
+    {
+      "id": 4,
+      "name": "INR",
+      "value": 71.65
+    },
+    {
+      "id": 5,
+      "name": "EUR",
+      "value": 0.9
+    }
+  ],
+  "wallets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "currencyId": 1,
+      "amount": 80
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "currencyId": 2,
+      "amount": 35
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "currencyId": 4,
+      "amount": 1000
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "currencyId": 3,
+      "amount": 15
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "currencyId": 5,
+      "amount": 5
+    }
+  ],
+  "topups": [
+    {
+      "userId": "1",
+      "walletId": "1",
+      "currency": "USD",
+      "amount": "10",
+      "id": 1
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "currency": "USD",
+      "amount": 10,
+      "id": 2
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "currency": "USD",
+      "amount": "10",
+      "id": 3
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "currency": "USD",
+      "amount": "10",
+      "id": 4
+    }
+  ],
+  "converts": [
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 1
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 2
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 3
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 4
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 5
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 6
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 7
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 8
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 9
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 10
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 11
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 13
+    },
+    {
+      "userId": "1",
+      "walletId": "1",
+      "fromCurrencyId": "1",
+      "toCurrencyId": "2",
+      "type": "FROM",
+      "fromAmount": "10",
+      "toAmount": "15",
+      "id": 14
+    }
+  ]
+}
