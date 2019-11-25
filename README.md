@@ -17,4 +17,7 @@ Project Wallet is a multi-currency wallet that allows users to perform actions s
 - `docker-compose build`
 - `docker-compose up`
 
+Alternatively, if you want to run the UI, backend and mock-data-server serparately, you can `cd` into each directory and run:
+- `yarn start` for the UI
+- `npm start` for the backend and the mock-data-server
 
